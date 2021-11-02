@@ -1,5 +1,23 @@
-
-p {
+.sumform {
+  background-color: rgb(240, 207, 164);
+  margin: 50px;
+  padding: 50px;
+}
+.heading {
+  size: 30px;
   font-style: italic;
 }
 
+navbar {
+  position: absolute;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+}
+
+@media only screen and (max-width:400px) {
+  * {
+      text-align: center;
+  }
+}
